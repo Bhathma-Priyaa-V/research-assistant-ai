@@ -25,7 +25,6 @@ It is built with **Django** and **Django REST Framework (DRF)** to handle:
 git clone https://github.com/your-username/research-assistant-ai.git
 cd research-assistant-ai
 
----
 
 ### 2. Create Virtual Environment
 ```bash
@@ -38,7 +37,6 @@ source .venv/bin/activate
 # On Windows:
 .venv\Scripts\activate
 
----
 
 ### 3. Install Dependencies
 ```bash
