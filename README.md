@@ -7,8 +7,6 @@ It is built with **Django** and **Django REST Framework (DRF)** to handle:
 - Extracting and storing **text, summaries, and metadata**  
 - Providing **REST API endpoints** for integration with frontends or other services  
 
----
-
 ## 🚀 Features
 - 📂 Upload and manage research papers  
 - 🔑 Securely handle metadata (UUID, checksums)  
@@ -16,48 +14,24 @@ It is built with **Django** and **Django REST Framework (DRF)** to handle:
 - ⏱ Automatic timestamps for tracking uploads  
 - 🌐 REST API for easy frontend/backend communication  
 
----
-
 ## 🔧 Setup Instructions
 
 ### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/research-assistant-ai.git
-cd research-assistant-ai
----
-## 2. Create Virtual Environment
-```bash
-# Create venv
-python -m venv .venv  
+Clone the repository and navigate into the project folder.
 
-# Activate venv
-# **On Linux/Mac:**
-source .venv/bin/activate  
-# On Windows:
-.venv\Scripts\activate
-
+### 2. Create Virtual Environment
+Create and activate a Python virtual environment.
 
 ### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-
----
+Install all required dependencies using `pip`.
 
 ### 4. Apply Migrations
-```bash
-python manage.py migrate
-
----
+Apply Django migrations to set up the database.
 
 ### 5. Run Development Server
-```bash
-python manage.py runserver
-
----
+Start the Django development server.
 
 Now your backend should be running.
-
----
 
 ## 🌐 API Endpoints
 
@@ -68,18 +42,9 @@ Now your backend should be running.
 | `/api/papers/{id}/` | GET    | Retrieve details of a paper |
 | `/admin/`           | -      | Django admin panel          |
 
----
-
 ## ⚙️ Tech Stack
 
 - Python 3.10+
-
 - Django 5.x
-
 - Django REST Framework (DRF)
-
 - SQLite (default), PostgreSQL recommended for production
-
-
-
-
