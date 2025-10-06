@@ -1,4 +1,4 @@
-# 📚 AI-Powered Research Assistant for Scientific Literature Analysis
+# 📚 Research Assistant for Scientific Literature Analysis
 
 This is the **backend service** for a Research Assistant AI project.  
 It is built with **Django** and **Django REST Framework (DRF)** to handle:
